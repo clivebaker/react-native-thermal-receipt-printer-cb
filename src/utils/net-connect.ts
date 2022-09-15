@@ -16,7 +16,7 @@ export const connectToHost = (ipAddress: string, timeout = 4000) => {
        * @memberof Ping
        */
 //      await Ping.start(ipAddress, {timeout: timeout});
-//      resolve(true)
+      resolve(true)
     } catch (error) {
       reject(error)
     }
