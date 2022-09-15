@@ -1,6 +1,6 @@
-# react-native-thermal-receipt-printer-image-qr
-![npm](https://img.shields.io/npm/dw/react-native-thermal-receipt-printer-image-qr?logo=github)
-![npm](https://img.shields.io/npm/v/react-native-thermal-receipt-printer-image-qr?color=green&logo=npm&logoColor=green)
+# react-native-thermal-receipt-printer-cb
+![npm](https://img.shields.io/npm/dw/react-native-thermal-receipt-printer-cb?logo=github)
+![npm](https://img.shields.io/npm/v/react-native-thermal-receipt-printer-cb?color=green&logo=npm&logoColor=green)
 - I fork this for my quickly project, this is not the official project.
 - Fork of `react-native-thermal-receipt-printer` and add implement :
 <br />
@@ -30,12 +30,12 @@
 
 ## Installation
 ```
-npm i react-native-thermal-receipt-printer-image-qr
+npm i react-native-thermal-receipt-printer-cb
 npm i react-native-ping
 ```
 or
 ```
-yarn add react-native-thermal-receipt-printer-image-qr
+yarn add react-native-thermal-receipt-printer-cb
 yarn add react-native-ping
 ```
 next step
@@ -44,7 +44,7 @@ next step
 cd ios && pod install
 
 # RN < 0.60
-react-native link react-native-thermal-receipt-printer-image-qr
+react-native link react-native-thermal-receipt-printer-cb
 ```
 
 ## API Reference
@@ -89,9 +89,9 @@ react-native link react-native-thermal-receipt-printer-image-qr
 ```js
 import {
   COMMANDS
-} from 'react-native-thermal-receipt-printer-image-qr';
+} from 'react-native-thermal-receipt-printer-cb';
 ```
-[See more here](https://github.com/thiendangit/react-native-thermal-receipt-printer-image-qr/blob/main/dist/utils/printer-commands.js)
+[See more here](https://github.com/clivebaker/react-native-thermal-receipt-printer-cb/blob/main/dist/utils/printer-commands.js)
 
 ## Example
 **`Print Columns Text`**
@@ -123,7 +123,7 @@ imageWidth: 575,
 // paddingX: 100
 })
 ```
-[See more here](https://github.com/thiendangit/react-native-thermal-receipt-printer-image-qr/blob/main/example/src/HomeScreen.tsx)
+[See more here](https://github.com/clivebaker/react-native-thermal-receipt-printer-cb/blob/main/example/src/HomeScreen.tsx)
 
 ## Troubleshoot
 
